@@ -9,10 +9,11 @@ public class playerControler : MonoBehaviour {
 	public float jumpforce;
 	public bool isGrounded;
 	public Text countText;
+	public Rigidbody rb;
 	
 	private int count;
+	private float tilt=1.0f;
 	private Vector3 reset;
-	private Rigidbody rb;
 	
 	void Start ()
 	{
@@ -51,8 +52,7 @@ public class playerControler : MonoBehaviour {
 		Vector3 movement=new Vector3 (moveHorizontal,0.0f,moveVertical);
 		rb.AddForce(movement*speed);
 		
-		if(transform.position.y<-5){
-			//moveto reset
-		}
+		rb.rotation = Quaternion.Euler (rb.velocity.y,-(rb.velocity.x * -tilt)/2 , rb.velocity.x * -tilt);
+
 	}
 }
