@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 1325
+  controlID: 1579
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,10 +121,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 677
-  m_MinSize: {x: 679, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 683, y: 221}
+  m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 1326
+  controlID: 1580
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,9 +183,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 106.01298, y: -63.63309, z: 69.47152}
+    m_Target: {x: 56.91155, y: -62.259876, z: 99.666275}
     speed: 2
-    m_Value: {x: 106.01298, y: -63.63309, z: 69.47152}
+    m_Value: {x: 56.91155, y: -62.259876, z: 99.666275}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -208,13 +208,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.26028147, y: 0.73719066, z: -0.47501478, w: -0.40393618}
+    m_Target: {x: 0.4446769, y: 0.5551086, z: -0.5072722, w: 0.48661268}
     speed: 2
-    m_Value: {x: -0.26028147, y: 0.73719066, z: -0.47501478, w: -0.40393618}
+    m_Value: {x: 0.4446769, y: 0.55510855, z: -0.5072722, w: 0.48661268}
   m_Size:
-    m_Target: 142.75998
+    m_Target: 223.15826
     speed: 2
-    m_Value: 142.75998
+    m_Value: 223.15826
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -243,8 +243,8 @@ MonoBehaviour:
     y: 0
     width: 210
     height: 677
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -279,9 +279,9 @@ MonoBehaviour:
     height: 656
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68250000
-    m_LastClickedID: 9576
-    m_ExpandedIDs: e8fbffff00000000
+    m_SelectedIDs: e6250000
+    m_LastClickedID: 9702
+    m_ExpandedIDs: 16f6ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
   m_MinSize: {x: 334, y: 271}
   m_MaxSize: {x: 14004, y: 10021}
   vertical: 0
-  controlID: 1284
+  controlID: 1546
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -471,8 +471,8 @@ MonoBehaviour:
     y: 0
     width: 1358
     height: 271
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -515,19 +515,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/terrain_assets/Tree01
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/terrain_assets/Tree01
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\110108\Documents\GitHub\Terrain Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 24250000
-    m_LastClickedID: 9508
-    m_ExpandedIDs: 00000000a6240000d624000000ca9a3bffffff7f
+    m_SelectedIDs: de240000
+    m_LastClickedID: 9438
+    m_ExpandedIDs: 00000000de2400000e25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -555,7 +555,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a624000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000de2400000e25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,9 +580,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 68250000
-    m_LastClickedInstanceID: 9576
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: e6250000
+    m_LastClickedInstanceID: 9702
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ee240000c4270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
