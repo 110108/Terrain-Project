@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\cameraControl.cs" />
      <Compile Include="Assets\scripts\playerControler.cs" />
+     <Compile Include="Assets\scripts\player_view_toggle.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
