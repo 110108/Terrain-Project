@@ -8,16 +8,33 @@ public class player_view_toggle : MonoBehaviour {
 	public GameObject v3;
 	public Vector3 start;
 
+	private int gamestate;
+
 	// Use this for initialization
 	void Start () {
-		start = (0.0f , 0.0f , 0.0f);
-		v1.transform = start;
-		v3.transform = start;
+		start = new Vector3( 100.0f , 1.5f ,100.0f );
+		v1.transform.position = start;
+		v3.transform.position = start;
 		v3.SetActive(false);
+		gamestate = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (gamestate == 0 || gamestate == 1) {
+			if (Input.GetKeyDown (KeyCode.R))
+			{
+				if (gamestate == 0) {
+					v3.SetActive (true);
+					v1.SetActive (false);
+					gamestate = 1;
+				}
+				if (gamestate == 1) {
+					v1.SetActive (true);
+					v3.SetActive (false);
+					gamestate = 0;
+				}
+			}
+		} 
 	}
 }

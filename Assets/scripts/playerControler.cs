@@ -13,13 +13,13 @@ public class playerControler : MonoBehaviour {
 	
 	private int count;
 	private float tilt=1.0f;
-	private Vector3 reset;
+//	private Vector3 reset;
 	
 	void Start ()
 	{
 		rb=GetComponent<Rigidbody>();
 		//count=0;
-		reset=transform.position;
+//		reset=transform.position;
 		//SetCountText();
 	}
 //	
