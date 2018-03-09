@@ -12,7 +12,7 @@ public class player_view_toggle : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		start = new Vector3( 100.0f , 1.5f ,100.0f );
+		start = new Vector3( 81.0f , 1.2f ,55.0f );
 		v1.transform.position = start;
 		v3.transform.position = start;
 		v3.SetActive(false);

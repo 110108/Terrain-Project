@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 495}
   m_MaxSize: {x: 14004, y: 14045}
   vertical: 1
-  controlID: 3406
+  controlID: 12420
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 224}
   m_MaxSize: {x: 12008, y: 4024}
   vertical: 0
-  controlID: 3407
+  controlID: 12421
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_MinSize: {x: 334, y: 271}
   m_MaxSize: {x: 14004, y: 10021}
   vertical: 0
-  controlID: 3187
+  controlID: 12387
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,9 +395,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.956713, y: 58.301594, z: 6.5606327}
+    m_Target: {x: 85.10365, y: 5.2698603, z: 65.703835}
     speed: 2
-    m_Value: {x: 5.956713, y: 58.301594, z: 6.5606327}
+    m_Value: {x: 85.10365, y: 5.2698603, z: 65.703835}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -412,21 +412,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.24438535, y: -0.44814292, z: 0.12881903, w: -0.85020584}
+    m_Target: {x: -0.022562329, y: 0.9304394, z: -0.058133412, w: -0.36110106}
     speed: 2
-    m_Value: {x: 0.24438533, y: 0.4481429, z: -0.12881903, w: 0.8502058}
+    m_Value: {x: -0.022562332, y: 0.9304394, z: -0.05813341, w: -0.36110106}
   m_Size:
-    m_Target: 17.56045
+    m_Target: 8.823836
     speed: 2
-    m_Value: 17.56045
+    m_Value: 8.823836
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -465,9 +465,9 @@ MonoBehaviour:
     height: 523
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc290000
-    m_LastClickedID: 10716
-    m_ExpandedIDs: e8fbffff00000000d6290000
+    m_SelectedIDs: f2330000
+    m_LastClickedID: 13298
+    m_ExpandedIDs: 9852faffcec9ffffd0c9ffffd6c9ffffd8c9ffffdac9ffffdcc9ffffdec9ffffe4c9ffffe6c9ffffeac9ffffecc9ffffeec9fffff0c9fffff2c9fffff4c9fffff6c9ffff00caffff04caffff08caffff0acaffff0ccaffff12caffff14caffff16caffff1ccaffff1ecaffff24caffff26caffff2ccaffff2ecaffff30caffff3ccaffff3ecaffff40caffff42caffff46caffff4acaffff4ecaffff50caffff52caffff54caffff56caffff58caffff5acaffff5ccaffff5ecaffff62caffff64caffff66caffff68caffff6ccaffff6ecaffff70caffff72cafffff2caffff00000000f2330000f8330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -626,19 +626,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/scripts
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts
+  - Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\110108\Documents\GitHub\Terrain Project
+  m_LastProjectPath: C:\Users\110108\Documents\GitHub\Terrain-Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78270000
-    m_LastClickedID: 10104
-    m_ExpandedIDs: 00000000202500006c250000fe250000da260000922700000c280000462900004a2900008029000000ca9a3bffffff7f
+    m_SelectedIDs: a6310000
+    m_LastClickedID: 12710
+    m_ExpandedIDs: 000000003e31000070310000aa3100000a32000092320000c232000054330000563300007a33000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,7 +666,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000202500006c250000fe250000da260000922700000c280000462900004a2900008029000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000003e31000070310000aa3100000a32000092320000c232000054330000563300007a33000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
